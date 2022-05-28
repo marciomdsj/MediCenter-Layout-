@@ -1,0 +1,406 @@
+* {
+    font-family:arial;
+}
+body {
+    margin:0;
+    padding:0;
+    
+}
+
+header {
+    display:flex;
+    justify-content: center;
+    height:160px;
+    align-items:center;
+    
+}
+
+
+.container {
+    width:990px;
+    display:flex;
+    justify-content: space-between;
+   
+}
+
+.logo {
+    display:flex;
+    align-items:center;
+    
+    
+}
+
+img {
+    width:250px;
+    height:250px;
+    object-fit:contain;
+}
+
+.links {
+    display:flex;
+    align-items:center;
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+
+nav ul {
+    display:flex;
+}
+
+nav a {
+    display:block;
+    padding:15px;
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#727272;
+
+}
+
+nav .active a,
+nav a:hover {
+    background-color:#39aae1;
+    color:white;
+}
+
+#banner {
+    display:flex;
+    justify-content: center;
+    background-image:url(../images/img1.jpg);
+    background-position:center;
+    background-size:cover;
+    height:670px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.banner_headline {
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.banner_headline h1 {
+    color:#FFF;
+    font-size:70px;
+    text-shadow: 0px 2px 1px #555;
+    padding:0;
+    margin:0;
+    max-width:350px;
+}
+
+.banner_headline h2 {
+    font-size:21px;
+    padding:0;
+    margin:0;
+    max-width:350px;
+    color:#FFF;
+    text-shadow: 0px 1px 0px #555;
+    margin-top:30px;
+}
+
+.banner_options {
+    height:210px;
+    display:flex;
+    
+} 
+
+.banner1,
+.banner2,
+.banner3 {
+    flex:1;
+    padding:20px;
+    color:#FFF;
+    
+}
+
+.banner1 {
+    background-color:#39aae1;
+}
+
+.banner2 {
+    background-color:#0079c7;
+}
+
+.banner3 {
+    background-color:#2b4c99;
+}
+
+.banner_title {
+    font-size:21px;
+}
+
+.banner_desc {
+    font-size:12px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.banner_options a {
+    display:inline-block;
+    border:1px solid #FFF;
+    padding:5px;
+    text-decoration:none;
+    color:#FFF;
+    font-size:12px;
+}
+
+.day {
+    display:flex;
+    justify-content: space-between;
+    font-size:12px;
+    border-bottom: solid 1px #2b6F99;
+    padding:8px;
+}
+
+#geral {
+    display:flex;
+    justify-content: center;
+}
+#geral section {
+    flex:2;
+}
+
+#geral aside {
+    flex:1;
+}
+.widget_title {
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+.widget_title_text {
+    font-size:21px;
+    font-weight:bold;
+}
+.widget_title_bar {
+    width:50px;
+    height:2px;
+    background-color:#2b4c99;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.boxes {
+    display:flex;
+}
+ .box1 {
+     width:155px;
+     height:155px;
+     background-color: #0079c7;
+     margin-top:20px;
+     margin-bottom:20px;
+     margin-right:10px;
+ }
+ .box2 {
+    width:155px;
+    height:155px;
+    background-color: #0079c7;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:10px;
+}
+
+.img1 {
+    width:50px;
+    height:50px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:10px;
+}
+.phone {
+    display:flex;
+    align-items:center;
+}
+
+.img2 {
+    width:50px;
+    height:50px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:10px;
+}
+
+.email {
+    display:flex;
+    align-items:center;
+}
+.img3 {
+    width:50px;
+    height:50px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:10px;
+}
+.form {
+    display:flex;
+    align-items:center;
+}
+
+article a {
+    text-decoration: none;
+}
+
+article .news_data {
+    display:flex;
+    color:#FFF;
+}
+.news_posted_at {
+    display:flex;
+    background-color:#2b4c99;
+    padding:10px;
+    margin-right:2px;
+    font-size:12px;
+}
+
+.news_comments {
+    display:flex;
+    background-color:#39aae1;
+    padding:10px;
+    margin-right:2px;
+    font-size:12px;
+}
+
+.news_body {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    font-size:16px;
+    color:#727272;
+    text-align:justify
+}
+
+.images {
+    display:flex;
+    flex-direction: column;
+    width:280px;
+}
+
+.news_title {
+    color:black;
+    font-size:25px;
+    margin-bottom:15px;
+}
+.doctora {
+    width:280px;
+}
+
+.news_posters {
+    display:flex;
+    margin-right:50px;
+    justify-content: space-between;
+    margin-bottom:20px;
+}
+
+.widget_footer {
+    background-color:#1c1c1c;
+    width:100%;
+    height:600px;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    
+}
+
+.boxes1 {
+    color:white;
+    min-width:330px;
+    height:110px;
+    background-color:#39aae1;
+}
+
+.boxes2 {
+    color:white;
+    min-width:330px;
+    height:110px;
+    background-color:#0079c7;
+}
+
+.boxes3 {
+    color:white;
+    min-width:330px;
+    height:110px;
+    background-color:#2b4c99;
+}
+
+.boxes_title {
+    font-weight:normal;
+    font-size:24px;
+    padding:16px;
+}
+
+.boxes_subtitle {
+    text-decoration:underline;
+    font-size:12px;
+    padding:15px;
+}
+
+
+.footer_titles {
+    margin-top:35px;
+    font-weight:bold;
+    color:white;
+    font-size:24px;
+}
+.footer_text {
+    color:white;
+    font-size:12px;
+    margin-right:5px;
+}
+
+.hospital {
+    color:#727272;
+    font-size:14px;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.adress {
+    display:flex;
+    justify-content:space-between;
+    font-size:12px;
+    color:#727272;
+    line-height:20px;
+    margin-right:5px;
+
+}
+
+.adress_two {
+    display:flex;
+}
+.footer_img {
+    margin-top:50px;
+    width:100px;
+    height:110px;
+    
+}
+
+.copyright {
+    background-color: #1c1c1c;
+    color:#727272;
+    border-top: solid 2px #727272;
+    font-size:14px;
+    height:40px;
+    line-height:40px;
+    display:flex;
+    justify-content: center;
+    
+}
+
+@media (max-width:600px) {
+    .banner_headline h1 { font-size:55px;};
+    .banner_headline h2 { font-size:17px;};
+    .banner_options {
+        height:auto;
+        flex-direction: column;
+    
+    }
+    .container {
+        flex-direction: column;
+    }
+}
